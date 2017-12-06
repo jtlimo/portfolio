@@ -1,0 +1,130 @@
+html {
+  height: 100%;
+}
+
+html,body {
+  margin: 0;
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 10rem;
+}
+
+header {
+  background-color: #808eff;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 0;
+  display: inline;
+  padding: 0.2em;
+  font-family: Caveat;
+  font-size: 3em;
+}
+
+#portfolio, #about {
+  background-color: #e9e6f2;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+nav {
+  display: inline-flex;
+  padding: 0 1em;
+}
+
+.section-links {
+  display: inline-flex;
+  padding-left: 0;
+}
+
+.section-links li {
+  margin: 0.5em;
+  align-self: flex-end;
+}
+
+ul {
+  list-style-type: none;
+}
+
+main {
+  padding: 1em;
+}
+
+.about-section {
+  column-count: 2;
+}
+
+.about-content {
+  display: inline-block;
+}
+
+.about-content p {
+  font-family: cursive, Helvetica;
+  text-align: left;
+  margin: 0;
+}
+
+.side-content {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2em;
+  height: 10em;
+  max-width: 60%;
+}
+
+.portfolio-img {
+  max-width: 70%;
+  height: auto;
+  border-radius: 2em;
+  align-self: center;
+}
+
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.portfolio-grid img {
+   margin: 0.5em;
+}
+
+.social-media-buttons {
+  display: inline-block;
+  padding: 0 1em;
+}
+
+.social-media-buttons li{
+  display: inline;
+  font-size: 2em;
+  margin: 0.25em;
+}
+
+.social-media-buttons li:first-child {
+  margin-left: 0;
+}
+
+span {
+  align-self: center;
+}
+
+footer {
+  background-color: #808eff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1em 1em;
+  display: flex;
+  justify-content: space-between;
+}
