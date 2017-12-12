@@ -9,36 +9,14 @@ html,body {
   padding-bottom: 10rem;
 }
 
-header {
-  background-color: #808eff;
-  display: flex;
-  justify-content: space-between;
-}
-
-h1 {
-  margin: 0;
-  display: inline;
-  padding: 0.2em;
-  font-family: Caveat;
-  font-size: 3em;
-}
-
 #portfolio, #about {
   background-color: #e9e6f2;
 }
 
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-a:hover {
-  color: #fff;
-}
-
-nav {
-  display: inline-flex;
-  padding: 0 1em;
+.home-header {
+  background-color: #808eff;
+  display: flex;
+  justify-content: space-between;
 }
 
 .section-links {
@@ -51,14 +29,6 @@ nav {
   align-self: flex-end;
 }
 
-ul {
-  list-style-type: none;
-}
-
-main {
-  padding: 1em;
-}
-
 .about-section {
   column-count: 2;
 }
@@ -68,22 +38,19 @@ main {
 }
 
 .about-content p {
-  font-family: cursive, Helvetica;
+  font-family: "Palatino Linotype", serif;
   text-align: left;
   margin: 0;
 }
 
 .side-content {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 2em;
   height: 10em;
-  max-width: 60%;
+  padding-top: 2em;
+  width: 90%;
 }
 
 .portfolio-img {
-  max-width: 70%;
-  height: auto;
+  width: 100%;
   border-radius: 2em;
   align-self: center;
 }
@@ -113,11 +80,29 @@ main {
   margin-left: 0;
 }
 
-span {
-  align-self: center;
+.info-links, .footer-icon {
+  text-decoration: none;
+  color: #000;
 }
 
-footer {
+.hover-link:hover {
+  color: #fff;
+}
+
+.navigation-links {
+  display: inline-flex;
+  padding: 0 1em;
+}
+
+.none-list-decoration {
+  list-style-type: none;
+}
+
+.main-content {
+  padding: 1em;
+}
+
+.main-footer {
   background-color: #808eff;
   position: absolute;
   right: 0;
@@ -127,4 +112,16 @@ footer {
   padding: 1em 1em;
   display: flex;
   justify-content: space-between;
+}
+
+h1 {
+  margin: 0;
+  display: inline;
+  padding: 0.2em;
+  font-family: "Palatino Linotype";
+  font-size: 3em;
+}
+
+span {
+  align-self: center;
 }
